@@ -1,0 +1,269 @@
+.head {
+    width: 290px;
+    height: 280px;
+    margin: auto;
+    background-color: #f5EE31;
+    position: relative;
+    overflow: hidden;
+    border-width: 4px 4px 0px 4px;
+    border-style: solid;
+    border-color:  #8d8717;
+    z-index: 1;
+}
+
+.eyelashes {
+    margin: auto;
+    position: fixed;
+    display: flex;
+    margin-top: -15px;
+}
+
+.eyelash1 {
+    width: 4px;
+    height: 16px;
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 6px;
+    transform: rotate(-35deg);
+}
+
+.eyelash2 {
+    width: 4px;
+    height: 16px;
+    background-color: black;
+    margin-left: 25px;
+    margin-top: -2px;
+}
+
+.eyelash3 {
+    width: 4px;
+    height: 16px;
+    background-color: black;
+    margin-top: 7px;
+    margin-left: 30px;
+    transform: rotate(35deg);
+}
+
+
+.eyes {
+    position: absolute;
+    margin: auto;
+    width: 210px;
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+}
+
+.eye {
+    width: 100px ;
+    height: 100px ;
+    border: solid black 4px;
+    position: relative;
+    border-radius: 50%;
+    margin-right: -12px;
+    display: inline-block;
+    background-color: white;
+    z-index: 3;
+}
+
+
+.iris {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: #4ba8e0;
+    margin-top: 23px;
+    margin-left: 25px;
+    display: inline-block;
+    z-index: 4;
+}
+
+.pupil {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.nose {
+    width: 20px;
+    height: 35px;
+    background-color: yellow;    
+    margin-left: 132px;
+    margin-top: 110px;
+    border-radius: 45%;
+    border-top: black solid 3px;
+    border-left: black solid 3px;
+    border-right: black solid 3px;
+    z-index: 8;
+    position: fixed;
+} 
+
+.cheeks {
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 170px;
+    margin-bottom: -25px;
+}
+
+.cheek1 {
+    width: 40px;
+    height: 20px;
+    background-color: transparent;   
+    margin-left: 160px;
+    border-top: 3px orange solid;
+
+    border-radius: 50%;
+
+}
+
+.cheek2 {
+    width: 40px;
+    height: 20px;
+    background-color: transparent;
+    border-top: 3px orange solid;  
+    border-radius: 50%;
+}
+
+
+.smile {
+    height: 40px;
+    width: 240px;
+    margin-left: 24px;
+    margin-top: 0px;
+    z-index: 2;
+    border-width: 0px 0px 5px 0px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 60%;
+}
+
+.teeth {
+    width: 60px;
+    height: 40px;
+    background-color: transparent;
+    z-index: 8;
+    margin-left: 118px;
+    margin-top: -2px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.tooth1 {
+    width: 22px;
+    height: 20px;
+    margin-left: 2px;
+    border: solid black 4px;
+    background-color: white;
+    z-index: 8;
+}
+
+.tooth2 {
+    width: 22px;
+    height: 20px;
+    margin-right: 2px;
+    border: solid black 4px;
+    background-color: white;
+    z-index: 8;
+}
+
+.shirt {
+    width: 290px;
+    height: 55px;
+    margin: auto;
+    border-top: solid black 4px;
+    border-left: solid black 4px;
+    border-right: solid black 4px;
+    border-bottom: solid black 2px;
+    background-color: white;
+}
+
+.neck1 {
+width: 35px;
+height: 35px;
+border: solid 3px black;
+transform: rotateZ(40deg);
+margin-left: 40px;
+margin-top: -23px;
+}
+
+.neck2 {
+    width: 35px;
+    height: 35px;
+    border: solid 3px black;
+    transform: rotateZ(50deg);
+    margin-left:210px;
+    margin-top: -41px;
+    }
+
+.tie1 {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    transform: rotate(45deg);
+    margin-top: -44px;
+    margin-left: 125px;
+    border: 4px solid black;
+}
+
+.tie2 {
+    width: 65px;
+    height: 65px;
+    background-color: #e93f33;
+    transform: rotate(45deg);
+    margin-top: 20px;
+    margin-left: 112px;
+    border: 4px solid black;
+}
+
+.pants {
+    width: 290px;
+    height: 55px;
+    margin: auto;
+    border-top: solid black 2px;
+    border-left: solid black 4px;
+    border-right: solid black 4px;
+    border-bottom: solid black 4px;
+    background-color: #6f3f12;
+    overflow: hidden;
+}
+
+.belt {
+    width: 45px;
+    height: 15px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+/* Trampitas: no me quedó otra, lo siento pero tenía un huevo de sueño. ¡¡Tramposa pero honesta!! */
+.bloque-trampa {
+    width: 298px;
+    height: 20px;
+    background-color: white;
+    border-top: 5px solid black;
+    margin-left: 86px;    
+    margin-top: -4px;
+    z-index: 10;
+    position: fixed;
+}
+
+.linea-trampa {
+    width: 200px;
+    height: 5px;
+    background-color: black;
+    position: fixed;
+    margin-top: -62px;
+    margin-left: 100px;
+}
+
+
+
